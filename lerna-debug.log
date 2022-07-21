@@ -1,0 +1,14 @@
+0 silly argv {
+0 silly argv   _: [ 'create' ],
+0 silly argv   lernaVersion: '5.1.8',
+0 silly argv   '$0': '/Users/tyronegaylord/mono-repo-test/node_modules/.bin/lerna',
+0 silly argv   name: 'simple-shared-data'
+0 silly argv }
+1 notice cli v5.1.8
+2 verbose rootPath /Users/tyronegaylord/mono-repo-test
+3 error Error: Command failed with exit code 1: git config --get user.email
+3 error     at makeError (/Users/tyronegaylord/mono-repo-test/node_modules/execa/lib/error.js:60:11)
+3 error     at Function.module.exports.sync (/Users/tyronegaylord/mono-repo-test/node_modules/execa/index.js:194:17)
+3 error     at Object.execSync (/Users/tyronegaylord/mono-repo-test/node_modules/@lerna/child-process/index.js:39:16)
+3 error     at CreateCommand.gitConfig (/Users/tyronegaylord/mono-repo-test/node_modules/@lerna/create/index.js:181:25)
+3 error     at CreateCommand.initialize (/Users/tyronegaylord/mono-repo-test/node_modules/@lerna/create/index.js:107:47)
